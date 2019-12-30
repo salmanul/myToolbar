@@ -1,0 +1,20 @@
+
+
+{
+  "moduleId": "myLibrary",
+  "presets": [[
+    "@babel/preset-env",
+    {
+      "modules":"umd",
+      "targets": {
+        "chrome": "58",
+        "ie": "11"
+      }
+    }
+  ],"@babel/typescript"],
+  "plugins": [
+    "@babel/plugin-proposal-numeric-separator",
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread"
+  ]
+}
